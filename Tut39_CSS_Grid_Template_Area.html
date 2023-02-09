@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css grid</title>
+    <style>
+        .container{
+            display: grid;
+            grid-gap: 1rem;
+            grid-template-areas: 
+            'navbar navbar navbar navbar'
+            'section section section aside'
+            'footer footer footer footer';
+            grid-template-columns: repeat(auto-fix, minmax(200px 1fr));
+        }
+        .item{
+            background-color: tomato;
+            border: 2px solid black;
+            padding: 12px 23px;
+            margin: 2px 5px;
+        }
+        #navbar{
+            grid-area: navbar;  
+        }
+        #section{
+            grid-area: section;
+        }
+        #aside{
+            grid-area: aside;
+        }
+        footer{
+            grid-area: footer;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="navbar" class="item">
+            Home About contact us
+        </div>
+        <div id="section" class="item">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus odit in quaerat nostrum enim, quo placeat! Doloribus libero repellat, nulla iure laudantium quia! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est fugit dignissimos vitae nobis eaque aliquam aperiam, iure, animi molestias eum facilis! Ullam ea ducimus, fuga dignissimos molestiae id eveniet cum unde iste veniam vitae eius vel voluptatem fugiat autem officiis accusamus illo saepe! Soluta quidem veritatis sit repellat perferendis id hic, illo tenetur blanditiis voluptatum ab vel maiores, expedita accusamus voluptas natus saepe animi assumenda a. Facilis accusantium quo delectus, nostrum sint sunt reprehenderit eum, amet officiis at esse eveniet rerum dolorem incidunt! Doloremque nisi quos nam, repellendus perferendis cum tempore dolores deleniti pariatur natus itaque maiores neque accusamus? Et accusantium saepe provident laborum nulla voluptatibus culpa quos quod. Ex architecto, voluptatum quisquam quasi laudantium quam iste totam eaque corporis aut vel sequi fugit ab optio pariatur libero quas consectetur quis, accusantium placeat est? Accusantium unde cupiditate, nostrum labore exercitationem tempora nesciunt modi sapiente sint. Eius velit fuga culpa obcaecati iste repellat saepe maxime quo dolore recusandae animi amet veniam odio harum assumenda itaque nobis cumque placeat pariatur, voluptas ullam nemo. Tenetur amet, corporis vero cupiditate quidem laborum, tempora ullam ad voluptates exercitationem eligendi natus. Id eos molestias magni, quo reiciendis expedita dolorem qui. Quasi explicabo enim voluptatem dignissimos ea libero! Quis ab at, corrupti magnam fugiat explicabo, molestias non, assumenda tempore nam harum in est quasi. Voluptatem dolorem at dolore praesentium atque accusantium veritatis, doloremque iure. Nesciunt, est similique non eos iure recusandae harum aperiam ab, velit, ut quod hic a blanditiis deserunt nemo dolorem quae. Possimus labore est tenetur fugiat consequatur delectus deserunt quo quod iure, ut ducimus nemo obcaecati. Asperiores maiores recusandae temporibus facilis incidunt odit aut totam quaerat unde laudantium saepe, cumque exercitationem inventore eum quas earum? Fugit odit possimus placeat voluptatem quidem adipisci animi, amet ullam mollitia sequi assumenda dolorum nam. Voluptates, unde quisquam nesciunt modi atque accusantium iusto vitae sequi, possimus minus magni! Assumenda adipisci expedita inventore cumque tempora corporis corrupti dolore repellendus atque quasi. Amet, consequuntur, debitis rem deserunt tempore modi, eos aliquam esse corrupti dolores nisi iure accusantium. Dolorem cupiditate at repellat nobis illum, facilis soluta earum maxime rem? Totam optio exercitationem consequuntur quas. Blanditiis, quas! Ratione nemo veritatis impedit ab inventore dignissimos ex natus asperiores. Aut pariatur id voluptatibus, vitae reprehenderit facilis ipsam excepturi, iure nostrum veniam facere ut alias unde non voluptates aliquam repellendus laudantium, fugit officiis minima doloremque rem et neque. Nemo, quae consequatur nulla nostrum molestiae neque odit.</div>
+        <div id="aside" class="item">Lorem  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam vitae hic voluptate pariatur, rerum veniam delectus. Sed iure laborum, obcaecati, sunt minus reiciendis quaerat dolorum adipisci aliquam, rem expedita beatae facilis tempore! Illum eius ab reprehenderit perspiciatis aliquid autem magni, accusamus facilis, minima quaerat commodi aspernatur! Dolore numquam expedita accusamus esse architecto ipsa? Eos eum quam odit magni modi necessitatibus temporibus ab porro quod officiis optio, ipsum quasi tempora ducimus incidunt explicabo, enim dolorum repudiandae. Laboriosam ratione perspiciatis distinctio exercitationem aut placeat, minima ex accusantium adipisci quod hic libero expedita excepturi magnam veniam consequatur dolores animi quos officia. Quisquam in est eligendi pariatur aliquam nemo excepturi sed facilis omnis dolorem sint maiores placeat error doloribus at laborum quam recusandae sunt, aspernatur, tempora natus nulla incidunt et nihil! Ullam cumque quaerat iure excepturi maxime et temporibus eligendi reprehenderit quam quidem culpa quia, minus repellendus impedit ipsam. Sint corrupti iusto iure aliquam. Porro optio voluptatem, ad exercitationem quam sapiente magni consectetur quasi quo, cumque autem explicabo culpa quis, harum mollitia natus quae pariatur unde nulla cupiditate odio beatae itaque! Dolorem ea, blanditiis consequuntur laudantium fugiat iure! Nemo iste saepe ea nam, libero assumenda obcaecati autem nihil iure labore veritatis, quo ipsa vitae consequuntur deserunt rem blanditiis dolorum. Animi nihil alias harum porro ipsam delectus officia, earum maiores. Dignissimos alias doloribus, libero placeat quibusdam vitae esse consequuntur illo id quas consequatur quod repellat vel, quam obcaecati magni excepturi, perspiciatis nobis ratione labore delectus ducimus ipsa modi? Dolorem, voluptas officiis eveniet facere dolore fuga adipisci neque fugiat libero possimus obcaecati doloremque voluptates. Sint nulla rem pariatur voluptates a dignissimos quos ducimus aut sequi optio libero sed quo id necessitatibus asperiores, ipsam saepe eligendi, error tenetur reiciendis. Corrupti quae placeat, itaque libero amet consequuntur harum magni iure delectus cupiditate optio exercitationem temporibus necessitatibus praesentium quia, recusandae sint nesciunt natus ut sunt voluptatibus esse odit culpa tenetur? Exercitationem iure neque aliquam asperiores assumenda nesciunt fuga reprehenderit excepturi totam. Quasi, excepturi culpa aperiam ipsam dicta nam debitis repudiandae libero dolore rem quas nesciunt voluptas nostrum inventore asperiores sit amet iure a. Optio eaque, inventore sint quos mollitia veritatis laudantium, aut dicta fuga voluptatibus asperiores aliquid facere iusto cumque minima, eligendi sit quis modi culpa. Placeat, excepturi numquam repudiandae consequatur fuga mollitia cumque exercitationem. Cumque possimus omnis delectus labore dicta in atque, sint vitae porro, eius voluptas, iusto sed non rem dignissimos repudiandae impedit esse harum soluta aspernatur!ipsum dolor sit amet, consectetur adipisicing elit. Ex rerum ipsam officia.</div>
+        <footer class="item">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo velit amet molestias!</footer>
+        <!-- <div class="item">Item-1</div>
+        <div class="item">Item-2</div>
+        <div class="item">Item-3</div>
+        <div class="item">Item-4</div>
+        <div class="item">Item-5</div>
+        <div class="item">Item-6</div>
+        <div class="item">Item-7</div>
+        <div class="item">Item-8</div>
+        <div class="item">Item-9</div>
+        <div class="item">Item-10</div>
+        <div class="item">Item-11</div>
+        <div class="item">Item-12</div>
+        <div class="item">Item-13</div>
+        <div class="item">Item-14</div> -->
+    </div>
+</body>
+</html>

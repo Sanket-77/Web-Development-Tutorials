@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math object </title>
+</head>
+<body>
+    <div class="container">This is math object</div>
+    <script>
+        //  Printing the Math object
+        let m = Math;
+        console.log(m);
+
+        // printing the constant from math object
+        console.log('the value of Math.E is '+ Math.E);
+        console.log('the value of Math.PI is '+ Math.PI);
+        console.log('the value of Math.LN2 is '+ Math.LN2);
+
+        console.log(Math.pow(3,2));
+        console.log(Math.sqrt(34));
+
+        // ceil and floor
+        console.log(Math.ceil(5.8));
+        console.log(Math.floor(5.8));
+
+        //  Trignomatric function
+        console.log('The value of sin(PI) is ', Math.sin(Math.PI));
+        console.log('The value of sin(PI) is ', Math.cos(Math.PI));
+        console.log('The value of sin(PI) is ', Math.tan(Math.PI));
+
+        // Min Max function
+        console.log('the min value of 4,5,6 is ',Math.min(4,5,6));
+        console.log('the min value of 4,5,6 is ',Math.max(48,52,61));
+
+        // Generating a random number
+        let r = Math.random();
+        console.log('The random number is ', r);
+
+        // Random number b/w (a,b) => a + (b-a)*Math.random()
+        let a1 = 1;
+        let b1 = 100;
+        let r1 = a1 + (b1-a1)*Math.random();
+        console.log('random numner bwn 1-100 is ', r1);
+
+    </script>
+</body>
+</html>

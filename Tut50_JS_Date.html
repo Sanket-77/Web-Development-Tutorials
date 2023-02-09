@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Date</title>
+    <style>
+        .container{
+            font-size: 23px;
+            background-color: rgb(17, 218, 232);
+            border: 2px solid black;
+            padding: 34px;
+            margin: 23px;
+            text-align: center;
+        }
+        #time{
+            font-weight: bold;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        Current time is <span id="time"></span>
+    </div>
+    <script>
+        console.log('This is Date and Time Tutorial');
+
+        let now = new Date();
+        console.log(now);
+
+        let dt = new Date();
+        console.log(dt);
+
+        let newdate = new Date("04/01/1997");
+        console.log(newdate);
+        let newdates = new Date("10/29/2001");
+        console.log(newdates);
+
+        // ******* Current Date and Time *********************//
+
+        function updatetime(){
+            time.innerHTML = new Date();
+        }
+        setInterval(updatetime, 1000);
+
+    </script>
+</body>
+</html>
